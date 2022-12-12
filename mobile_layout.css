@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 1;
+    margin: 0;
+}
+/* COLORS and FONTS */
+body {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    line-height: 5;
+}
+header {
+    background: #ffeebb;
+    border-style: solid;
+    border-width: 1px;
+}
+main {
+    background: #dddd88;
+    border-style: solid;
+    border-width: 1px;
+}
+footer {
+    background: #ffeebb;
+    border-style: solid;
+    border-width: 1px;
+}
+.left-sidebar {
+    background: #ccccff;
+    border-style: solid;
+    border-width: 1px;
+}
+.right-sidebar {
+    background: #dddd88;
+    border-style: solid;
+    border-width: 1px;
+}
+.container, 
+.content {
+    display: flex;
+    flex-direction: column;
+}
